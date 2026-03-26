@@ -1,0 +1,33 @@
+profession,year,forecast,lower_95,upper_95
+Dietitian,2025,1273,1225,1321
+Dietitian,2026,1305,1256,1355
+Dietitian,2027,1338,1288,1389
+Dietitian,2028,1371,1319,1423
+Medical Lab Technologist,2025,4647,4489,4805
+Medical Lab Technologist,2026,4705,4543,4867
+Medical Lab Technologist,2027,4764,4597,4930
+Medical Lab Technologist,2028,4822,4651,4993
+Occupational Therapist,2025,3631,3505,3756
+Occupational Therapist,2026,3736,3607,3865
+Occupational Therapist,2027,3842,3709,3974
+Occupational Therapist,2028,3947,3811,4083
+Pharmacist,2025,7939,7679,8198
+Pharmacist,2026,8111,7845,8377
+Pharmacist,2027,8284,8011,8557
+Pharmacist,2028,8457,8175,8738
+Physiotherapist,2025,5238,5109,5368
+Physiotherapist,2026,5379,5247,5512
+Physiotherapist,2027,5520,5384,5656
+Physiotherapist,2028,5661,5521,5801
+Respiratory Therapist,2025,1615,1548,1682
+Respiratory Therapist,2026,1651,1582,1719
+Respiratory Therapist,2027,1686,1615,1757
+Respiratory Therapist,2028,1721,1649,1794
+Social Worker,2025,7183,6914,7452
+Social Worker,2026,7396,7120,7671
+Social Worker,2027,7608,7324,7891
+Social Worker,2028,7820,7529,8112
+Speech-Language Pathologist,2025,1358,1317,1399
+Speech-Language Pathologist,2026,1390,1348,1432
+Speech-Language Pathologist,2027,1422,1379,1465
+Speech-Language Pathologist,2028,1454,1409,1498

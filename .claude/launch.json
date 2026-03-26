@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "quarto-site",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["serve.cjs"],
+      "port": 4000
+    }
+  ]
+}

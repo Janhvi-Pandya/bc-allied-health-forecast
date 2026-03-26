@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "BC Allied Health Workforce Forecast"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Report
+      - href: methods.qmd
+        text: Methods
+      - href: https://keriu-pandya.shinyapps.io/bc-allied-health-forecast/
+        text: Interactive Dashboard
+    right:
+      - icon: github
+        href: https://github.com/keriupandya/bc-allied-health-forecast
+
+format:
+  html:
+    theme:
+      light: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-summary: "Show R code"
+    code-tools: true

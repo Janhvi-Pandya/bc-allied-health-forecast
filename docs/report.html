@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>report – BC Allied Health Workforce Forecast</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">BC Allied Health Workforce Forecast</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Report</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./methods.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://keriu-pandya.shinyapps.io/bc-allied-health-forecast/"> 
+<span class="menu-text">Interactive Dashboard</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/keriupandya/bc-allied-health-forecast"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#bc-allied-health-workforce-forecasting-analysis" id="toc-bc-allied-health-workforce-forecasting-analysis" class="nav-link active" data-scroll-target="#bc-allied-health-workforce-forecasting-analysis">BC Allied Health Workforce Forecasting Analysis</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">1. Introduction</a></li>
+  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods">2. Data and Methods</a>
+  <ul class="collapse">
+  <li><a href="#dataset" id="toc-dataset" class="nav-link" data-scroll-target="#dataset">2.1 Dataset</a></li>
+  <li><a href="#data-quality-assessment" id="toc-data-quality-assessment" class="nav-link" data-scroll-target="#data-quality-assessment">2.2 Data Quality Assessment</a></li>
+  <li><a href="#imputation-strategy" id="toc-imputation-strategy" class="nav-link" data-scroll-target="#imputation-strategy">2.3 Imputation Strategy</a></li>
+  <li><a href="#analytical-methods" id="toc-analytical-methods" class="nav-link" data-scroll-target="#analytical-methods">2.4 Analytical Methods</a></li>
+  </ul></li>
+  <li><a href="#findings" id="toc-findings" class="nav-link" data-scroll-target="#findings">3. Findings</a>
+  <ul class="collapse">
+  <li><a href="#provincial-growth-trends" id="toc-provincial-growth-trends" class="nav-link" data-scroll-target="#provincial-growth-trends">3.1 Provincial Growth Trends</a></li>
+  <li><a href="#regional-disparities" id="toc-regional-disparities" class="nav-link" data-scroll-target="#regional-disparities">3.2 Regional Disparities</a></li>
+  <li><a href="#vacancy-analysis" id="toc-vacancy-analysis" class="nav-link" data-scroll-target="#vacancy-analysis">3.3 Vacancy Analysis</a></li>
+  <li><a href="#forecast-results" id="toc-forecast-results" class="nav-link" data-scroll-target="#forecast-results">3.4 Forecast Results</a></li>
+  <li><a href="#covid-impact-on-vacancy-rates" id="toc-covid-impact-on-vacancy-rates" class="nav-link" data-scroll-target="#covid-impact-on-vacancy-rates">3.5 COVID Impact on Vacancy Rates</a></li>
+  </ul></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">4. Limitations</a></li>
+  <li><a href="#recommendations" id="toc-recommendations" class="nav-link" data-scroll-target="#recommendations">5. Recommendations</a>
+  <ul class="collapse">
+  <li><a href="#targeted-recruitment-for-high-vacancy-professions" id="toc-targeted-recruitment-for-high-vacancy-professions" class="nav-link" data-scroll-target="#targeted-recruitment-for-high-vacancy-professions">5.1 Targeted Recruitment for High-Vacancy Professions</a></li>
+  <li><a href="#northern-health-workforce-strategy" id="toc-northern-health-workforce-strategy" class="nav-link" data-scroll-target="#northern-health-workforce-strategy">5.2 Northern Health Workforce Strategy</a></li>
+  <li><a href="#post-covid-vacancy-monitoring" id="toc-post-covid-vacancy-monitoring" class="nav-link" data-scroll-target="#post-covid-vacancy-monitoring">5.3 Post-COVID Vacancy Monitoring</a></li>
+  <li><a href="#model-refinement-with-administrative-data" id="toc-model-refinement-with-administrative-data" class="nav-link" data-scroll-target="#model-refinement-with-administrative-data">5.4 Model Refinement with Administrative Data</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">6. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7"></h1></header><div class="quarto-title-block"><div class="quarto-title-tools-only"><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+
+
+
+
+<section id="bc-allied-health-workforce-forecasting-analysis" class="level1">
+<h1>BC Allied Health Workforce Forecasting Analysis</h1>
+<p><strong>Author:</strong> Keriu Pandya <strong>Date:</strong> March 2026 <strong>Tools:</strong> R (tidyverse, broom, scales)</p>
+<hr>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">1. Introduction</h2>
+<p>British Columbia faces persistent challenges in health workforce planning. As the province’s population ages and grows — particularly in high-growth regions like Fraser Health — demand for allied health services continues to outpace supply. The COVID-19 pandemic further strained an already stretched workforce, accelerating burnout and early retirements while disrupting training pipelines.</p>
+<p>Allied health professionals — physiotherapists, occupational therapists, pharmacists, speech-language pathologists, medical laboratory technologists, respiratory therapists, dietitians, and social workers — are essential to the continuum of care across acute, primary, and community settings. Unlike physicians and nurses, these professions often receive less attention in workforce planning despite filling critical gaps in rehabilitation, diagnostics, mental health, and chronic disease management.</p>
+<p>This analysis examines workforce trends across BC’s five regional Health Authorities from 2010 to 2024, with the aim of:</p>
+<ol type="1">
+<li>Identifying growth patterns and regional disparities in allied health supply</li>
+<li>Quantifying vacancy gaps that signal workforce shortages</li>
+<li>Producing evidence-based forecasts through 2028 to inform planning</li>
+<li>Assessing whether the pandemic had a statistically significant impact on vacancy rates</li>
+</ol>
+</section>
+<section id="data-and-methods" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-methods">2. Data and Methods</h2>
+<section id="dataset" class="level3">
+<h3 class="anchored" data-anchor-id="dataset">2.1 Dataset</h3>
+<p>The dataset comprises approximately 600 observations spanning 8 allied health professions, 5 Health Authorities, and 15 years (2010–2024). Variables include annual headcounts, per-capita supply rates (per 100,000 population), and vacancy rates. The data is synthetic but modeled after publicly available statistics from the Canadian Institute for Health Information (CIHI) and BC Ministry of Health workforce reports, preserving realistic patterns including:</p>
+<ul>
+<li>Higher per-capita supply in urban Health Authorities (Fraser, Vancouver Coastal)</li>
+<li>Chronic recruitment challenges in Northern Health</li>
+<li>COVID-era disruptions in 2020–2021</li>
+</ul>
+</section>
+<section id="data-quality-assessment" class="level3">
+<h3 class="anchored" data-anchor-id="data-quality-assessment">2.2 Data Quality Assessment</h3>
+<p>An initial quality audit identified missing values in approximately 3% of records across headcount, supply rate, and vacancy rate fields. Missing values were distributed across profession–Health Authority groups without systematic patterns, suggesting data-collection gaps rather than structural bias.</p>
+</section>
+<section id="imputation-strategy" class="level3">
+<h3 class="anchored" data-anchor-id="imputation-strategy">2.3 Imputation Strategy</h3>
+<p>Missing values were imputed using the <strong>group-median</strong> method, calculating the median within each profession × Health Authority group. This approach was chosen over alternatives for the following reasons:</p>
+<ul>
+<li><strong>vs.&nbsp;mean imputation:</strong> The median is robust to outliers (e.g., a single year with anomalous recruitment) and does not inflate or deflate group estimates.</li>
+<li><strong>vs.&nbsp;global median:</strong> A province-wide median would ignore the substantial variation between Health Authorities — for example, Northern Health consistently has lower headcounts than Fraser Health. Group-level imputation preserves these real differences.</li>
+</ul>
+<p>Post-imputation validation confirmed zero remaining missing values.</p>
+</section>
+<section id="analytical-methods" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-methods">2.4 Analytical Methods</h3>
+<p><strong>Exploratory analysis</strong> included trend visualization, growth rate calculations, per-capita supply comparisons, and vacancy gap estimation. Unfilled positions were derived from the relationship: <code>estimated_demand = headcount / (1 - vacancy_rate)</code>.</p>
+<p><strong>Regression modeling</strong> used ordinary least squares (OLS) linear regression with the specification <code>total_headcount ~ year</code>, fitted separately per profession on provincial aggregates. COVID years (2020–2021) were excluded from model fitting to prevent pandemic-induced dips from distorting the underlying growth trend. Forecasts for 2025–2028 were generated with 95% prediction intervals.</p>
+<p><strong>Statistical testing</strong> used Welch’s t-test (one-sided, α = 0.05) to compare mean vacancy rates in the pre-COVID period (2015–2019) against the post-COVID period (2022–2024), testing the alternative hypothesis that post-COVID rates are higher.</p>
+</section>
+</section>
+<section id="findings" class="level2">
+<h2 class="anchored" data-anchor-id="findings">3. Findings</h2>
+<section id="provincial-growth-trends" class="level3">
+<h3 class="anchored" data-anchor-id="provincial-growth-trends">3.1 Provincial Growth Trends</h3>
+<p>All eight professions showed positive growth over the 2010–2024 period, though growth rates varied substantially. Social Workers and Occupational Therapists exhibited the strongest growth trajectories, consistent with expanded mental health and rehabilitation mandates. Medical Laboratory Technologists showed the slowest growth, reflecting well-documented national challenges in attracting entrants to the profession.</p>
+<p>The COVID dip is visible in 2020–2021 headcount data across most professions, with recovery beginning in 2022 but not fully returning to the pre-pandemic trendline in all cases.</p>
+</section>
+<section id="regional-disparities" class="level3">
+<h3 class="anchored" data-anchor-id="regional-disparities">3.2 Regional Disparities</h3>
+<p>Per-capita supply analysis reveals significant regional inequities. Vancouver Coastal and Fraser Health generally have the highest supply rates, benefiting from proximity to training institutions, urban amenities, and larger employer organizations. Northern Health consistently shows the lowest per-capita supply across nearly all professions — often 30–50% below the provincial average — reflecting long-standing rural and remote recruitment challenges.</p>
+<p>Island and Interior Health fall in between, with Interior Health showing particular softness in professions that require specialized training facilities.</p>
+</section>
+<section id="vacancy-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="vacancy-analysis">3.3 Vacancy Analysis</h3>
+<p>The 2024 vacancy rate heatmap identifies several critical shortage areas:</p>
+<ul>
+<li><strong>Speech-Language Pathologists</strong> and <strong>Dietitians</strong> have the highest vacancy rates province-wide, reflecting small professional pools and high demand.</li>
+<li><strong>Northern Health</strong> shows elevated vacancy rates across all professions, with some exceeding 20%.</li>
+<li><strong>Pharmacists</strong> have relatively low vacancy rates, likely due to larger training cohorts and private-sector workforce supply.</li>
+</ul>
+<p>Estimated unfilled positions — derived from headcount and vacancy rates — highlight where the absolute gap is largest. Even professions with moderate vacancy rates (e.g., Social Workers) can have large absolute gaps due to large workforce sizes.</p>
+</section>
+<section id="forecast-results" class="level3">
+<h3 class="anchored" data-anchor-id="forecast-results">3.4 Forecast Results</h3>
+<p>Linear regression models achieved strong fit across all professions (R² &gt; 0.90 in most cases), which is expected given the steady underlying growth trends. Key forecast findings:</p>
+<ul>
+<li><strong>Pharmacists</strong> are projected to have the largest absolute workforce by 2028, continuing their position as the most numerous allied health profession in BC.</li>
+<li><strong>Social Workers</strong> and <strong>Occupational Therapists</strong> show the steepest growth trajectories, suggesting increasing policy emphasis on mental health and rehabilitation.</li>
+<li><strong>Medical Lab Technologists</strong> have the flattest forecast, with prediction intervals suggesting the profession could plateau if current trends continue.</li>
+<li>95% prediction intervals widen for professions with higher year-to-year volatility, appropriately reflecting greater uncertainty.</li>
+</ul>
+<p>Note: These forecasts assume continuation of recent trends and do not account for policy interventions, training program expansions, or immigration changes that could alter trajectories.</p>
+</section>
+<section id="covid-impact-on-vacancy-rates" class="level3">
+<h3 class="anchored" data-anchor-id="covid-impact-on-vacancy-rates">3.5 COVID Impact on Vacancy Rates</h3>
+<p>Welch’s t-tests found statistically significant increases in post-COVID vacancy rates for several professions. The magnitude of the effect varies: professions with already-high vacancy rates (SLPs, Dietitians) showed larger absolute increases, while those with stronger recruitment pipelines (Pharmacists) showed smaller or non-significant changes.</p>
+<p>This finding aligns with broader workforce research indicating that the pandemic had differential impacts across health professions, with smaller and more specialized disciplines experiencing longer recovery periods.</p>
+</section>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">4. Limitations</h2>
+<ol type="1">
+<li><p><strong>Synthetic data:</strong> While modeled after real-world patterns, this dataset does not capture the full complexity of actual workforce dynamics. Conclusions should be interpreted as methodological demonstrations rather than policy prescriptions.</p></li>
+<li><p><strong>Linear model assumptions:</strong> Linear regression assumes a constant rate of change, which may not hold over longer horizons. Workforce supply is influenced by non-linear factors including retirement waves, immigration policy shifts, and training program capacity changes.</p></li>
+<li><p><strong>Aggregation limitations:</strong> Provincial-level regression masks sub-regional variation. A more granular model could fit trends per Health Authority, capturing divergent trajectories (e.g., Northern Health’s stagnation vs.&nbsp;Fraser’s rapid growth).</p></li>
+<li><p><strong>No demand-side modeling:</strong> This analysis models supply only. A complete workforce planning model would incorporate population health needs, service utilization projections, and scope-of-practice changes.</p></li>
+<li><p><strong>COVID exclusion trade-off:</strong> Excluding 2020–2021 from the regression prevents trend distortion but also discards information about pandemic-era structural changes that may persist.</p></li>
+</ol>
+</section>
+<section id="recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="recommendations">5. Recommendations</h2>
+<p>Based on the analysis findings, the following actions are recommended for BC health workforce planners:</p>
+<section id="targeted-recruitment-for-high-vacancy-professions" class="level3">
+<h3 class="anchored" data-anchor-id="targeted-recruitment-for-high-vacancy-professions">5.1 Targeted Recruitment for High-Vacancy Professions</h3>
+<p>Speech-Language Pathologists and Dietitians consistently show the highest vacancy rates. Targeted strategies could include: expanded training program seats at BC universities, streamlined credential recognition for internationally trained professionals, and return-of-service agreements for new graduates.</p>
+</section>
+<section id="northern-health-workforce-strategy" class="level3">
+<h3 class="anchored" data-anchor-id="northern-health-workforce-strategy">5.2 Northern Health Workforce Strategy</h3>
+<p>Northern Health’s chronic supply deficit requires a dedicated approach beyond general provincial recruitment. Evidence from other jurisdictions suggests that distributed training models (clinical placements in rural communities), loan forgiveness programs, and community-embedded practice models are more effective than relocation incentives alone.</p>
+</section>
+<section id="post-covid-vacancy-monitoring" class="level3">
+<h3 class="anchored" data-anchor-id="post-covid-vacancy-monitoring">5.3 Post-COVID Vacancy Monitoring</h3>
+<p>The statistical evidence of elevated post-COVID vacancy rates warrants ongoing monitoring. The Ministry should establish a quarterly vacancy tracking mechanism — rather than relying on annual or biennial surveys — to enable earlier intervention when vacancy rates exceed critical thresholds.</p>
+</section>
+<section id="model-refinement-with-administrative-data" class="level3">
+<h3 class="anchored" data-anchor-id="model-refinement-with-administrative-data">5.4 Model Refinement with Administrative Data</h3>
+<p>This analysis demonstrates the utility of regression-based forecasting. The logical next step is to apply this framework to administrative workforce data (e.g., College of Health Professionals registration data, WorkBC labour market information) and extend the model to include:</p>
+<ul>
+<li>Retirement projections based on age distribution data</li>
+<li>Training program enrollment and graduation rates</li>
+<li>Net interprovincial and international migration of health professionals</li>
+</ul>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">6. Conclusion</h2>
+<p>BC’s allied health workforce is growing but unevenly — both across professions and across regions. The data point to a province that is producing more allied health professionals each year but is not distributing them equitably, particularly to Northern and rural communities. The COVID-19 pandemic created a measurable disruption to vacancy rates that has not fully resolved.</p>
+<p>Linear regression forecasts suggest continued growth through 2028, but growth alone will not close existing gaps without deliberate policy action. The combination of targeted recruitment, regional equity strategies, and enhanced data infrastructure will be essential to meeting BC’s health workforce needs over the coming decade.</p>
+<hr>
+<p><em>Analysis conducted using R 4.3+ with tidyverse, broom, and scales packages. Full source code and reproducibility instructions available in the project repository.</em></p>
+
+
+<!-- -->
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># BC Allied Health Workforce Forecasting Analysis</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>**Author:** Keriu Pandya</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>**Date:** March 2026</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>**Tools:** R (tidyverse, broom, scales)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## 1. Introduction</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>British Columbia faces persistent challenges in health workforce planning. As the province's population ages and grows — particularly in high-growth regions like Fraser Health — demand for allied health services continues to outpace supply. The COVID-19 pandemic further strained an already stretched workforce, accelerating burnout and early retirements while disrupting training pipelines.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>Allied health professionals — physiotherapists, occupational therapists, pharmacists, speech-language pathologists, medical laboratory technologists, respiratory therapists, dietitians, and social workers — are essential to the continuum of care across acute, primary, and community settings. Unlike physicians and nurses, these professions often receive less attention in workforce planning despite filling critical gaps in rehabilitation, diagnostics, mental health, and chronic disease management.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>This analysis examines workforce trends across BC's five regional Health Authorities from 2010 to 2024, with the aim of:</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Identifying growth patterns and regional disparities in allied health supply</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Quantifying vacancy gaps that signal workforce shortages</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Producing evidence-based forecasts through 2028 to inform planning</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Assessing whether the pandemic had a statistically significant impact on vacancy rates</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">## 2. Data and Methods</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2.1 Dataset</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>The dataset comprises approximately 600 observations spanning 8 allied health professions, 5 Health Authorities, and 15 years (2010–2024). Variables include annual headcounts, per-capita supply rates (per 100,000 population), and vacancy rates. The data is synthetic but modeled after publicly available statistics from the Canadian Institute for Health Information (CIHI) and BC Ministry of Health workforce reports, preserving realistic patterns including:</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Higher per-capita supply in urban Health Authorities (Fraser, Vancouver Coastal)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Chronic recruitment challenges in Northern Health</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>COVID-era disruptions in 2020–2021</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2.2 Data Quality Assessment</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>An initial quality audit identified missing values in approximately 3% of records across headcount, supply rate, and vacancy rate fields. Missing values were distributed across profession–Health Authority groups without systematic patterns, suggesting data-collection gaps rather than structural bias.</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2.3 Imputation Strategy</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Missing values were imputed using the **group-median** method, calculating the median within each profession × Health Authority group. This approach was chosen over alternatives for the following reasons:</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**vs. mean imputation:** The median is robust to outliers (e.g., a single year with anomalous recruitment) and does not inflate or deflate group estimates.</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**vs. global median:** A province-wide median would ignore the substantial variation between Health Authorities — for example, Northern Health consistently has lower headcounts than Fraser Health. Group-level imputation preserves these real differences.</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>Post-imputation validation confirmed zero remaining missing values.</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2.4 Analytical Methods</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>**Exploratory analysis** included trend visualization, growth rate calculations, per-capita supply comparisons, and vacancy gap estimation. Unfilled positions were derived from the relationship: <span class="in">`estimated_demand = headcount / (1 - vacancy_rate)`</span>.</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>**Regression modeling** used ordinary least squares (OLS) linear regression with the specification <span class="in">`total_headcount ~ year`</span>, fitted separately per profession on provincial aggregates. COVID years (2020–2021) were excluded from model fitting to prevent pandemic-induced dips from distorting the underlying growth trend. Forecasts for 2025–2028 were generated with 95% prediction intervals.</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>**Statistical testing** used Welch's t-test (one-sided, α = 0.05) to compare mean vacancy rates in the pre-COVID period (2015–2019) against the post-COVID period (2022–2024), testing the alternative hypothesis that post-COVID rates are higher.</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="fu">## 3. Findings</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3.1 Provincial Growth Trends</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>All eight professions showed positive growth over the 2010–2024 period, though growth rates varied substantially. Social Workers and Occupational Therapists exhibited the strongest growth trajectories, consistent with expanded mental health and rehabilitation mandates. Medical Laboratory Technologists showed the slowest growth, reflecting well-documented national challenges in attracting entrants to the profession.</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>The COVID dip is visible in 2020–2021 headcount data across most professions, with recovery beginning in 2022 but not fully returning to the pre-pandemic trendline in all cases.</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3.2 Regional Disparities</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>Per-capita supply analysis reveals significant regional inequities. Vancouver Coastal and Fraser Health generally have the highest supply rates, benefiting from proximity to training institutions, urban amenities, and larger employer organizations. Northern Health consistently shows the lowest per-capita supply across nearly all professions — often 30–50% below the provincial average — reflecting long-standing rural and remote recruitment challenges.</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>Island and Interior Health fall in between, with Interior Health showing particular softness in professions that require specialized training facilities.</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3.3 Vacancy Analysis</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>The 2024 vacancy rate heatmap identifies several critical shortage areas:</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Speech-Language Pathologists** and **Dietitians** have the highest vacancy rates province-wide, reflecting small professional pools and high demand.</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Northern Health** shows elevated vacancy rates across all professions, with some exceeding 20%.</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Pharmacists** have relatively low vacancy rates, likely due to larger training cohorts and private-sector workforce supply.</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>Estimated unfilled positions — derived from headcount and vacancy rates — highlight where the absolute gap is largest. Even professions with moderate vacancy rates (e.g., Social Workers) can have large absolute gaps due to large workforce sizes.</span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3.4 Forecast Results</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>Linear regression models achieved strong fit across all professions (R² &gt; 0.90 in most cases), which is expected given the steady underlying growth trends. Key forecast findings:</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Pharmacists** are projected to have the largest absolute workforce by 2028, continuing their position as the most numerous allied health profession in BC.</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Social Workers** and **Occupational Therapists** show the steepest growth trajectories, suggesting increasing policy emphasis on mental health and rehabilitation.</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Medical Lab Technologists** have the flattest forecast, with prediction intervals suggesting the profession could plateau if current trends continue.</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>95% prediction intervals widen for professions with higher year-to-year volatility, appropriately reflecting greater uncertainty.</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>Note: These forecasts assume continuation of recent trends and do not account for policy interventions, training program expansions, or immigration changes that could alter trajectories.</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3.5 COVID Impact on Vacancy Rates</span></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>Welch's t-tests found statistically significant increases in post-COVID vacancy rates for several professions. The magnitude of the effect varies: professions with already-high vacancy rates (SLPs, Dietitians) showed larger absolute increases, while those with stronger recruitment pipelines (Pharmacists) showed smaller or non-significant changes.</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>This finding aligns with broader workforce research indicating that the pandemic had differential impacts across health professions, with smaller and more specialized disciplines experiencing longer recovery periods.</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="fu">## 4. Limitations</span></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Synthetic data:** While modeled after real-world patterns, this dataset does not capture the full complexity of actual workforce dynamics. Conclusions should be interpreted as methodological demonstrations rather than policy prescriptions.</span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Linear model assumptions:** Linear regression assumes a constant rate of change, which may not hold over longer horizons. Workforce supply is influenced by non-linear factors including retirement waves, immigration policy shifts, and training program capacity changes.</span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Aggregation limitations:** Provincial-level regression masks sub-regional variation. A more granular model could fit trends per Health Authority, capturing divergent trajectories (e.g., Northern Health's stagnation vs. Fraser's rapid growth).</span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**No demand-side modeling:** This analysis models supply only. A complete workforce planning model would incorporate population health needs, service utilization projections, and scope-of-practice changes.</span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**COVID exclusion trade-off:** Excluding 2020–2021 from the regression prevents trend distortion but also discards information about pandemic-era structural changes that may persist.</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a><span class="fu">## 5. Recommendations</span></span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>Based on the analysis findings, the following actions are recommended for BC health workforce planners:</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="fu">### 5.1 Targeted Recruitment for High-Vacancy Professions</span></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>Speech-Language Pathologists and Dietitians consistently show the highest vacancy rates. Targeted strategies could include: expanded training program seats at BC universities, streamlined credential recognition for internationally trained professionals, and return-of-service agreements for new graduates.</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a><span class="fu">### 5.2 Northern Health Workforce Strategy</span></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>Northern Health's chronic supply deficit requires a dedicated approach beyond general provincial recruitment. Evidence from other jurisdictions suggests that distributed training models (clinical placements in rural communities), loan forgiveness programs, and community-embedded practice models are more effective than relocation incentives alone.</span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="fu">### 5.3 Post-COVID Vacancy Monitoring</span></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>The statistical evidence of elevated post-COVID vacancy rates warrants ongoing monitoring. The Ministry should establish a quarterly vacancy tracking mechanism — rather than relying on annual or biennial surveys — to enable earlier intervention when vacancy rates exceed critical thresholds.</span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="fu">### 5.4 Model Refinement with Administrative Data</span></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a>This analysis demonstrates the utility of regression-based forecasting. The logical next step is to apply this framework to administrative workforce data (e.g., College of Health Professionals registration data, WorkBC labour market information) and extend the model to include:</span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Retirement projections based on age distribution data</span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Training program enrollment and graduation rates</span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Net interprovincial and international migration of health professionals</span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a><span class="fu">## 6. Conclusion</span></span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a>BC's allied health workforce is growing but unevenly — both across professions and across regions. The data point to a province that is producing more allied health professionals each year but is not distributing them equitably, particularly to Northern and rural communities. The COVID-19 pandemic created a measurable disruption to vacancy rates that has not fully resolved.</span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a>Linear regression forecasts suggest continued growth through 2028, but growth alone will not close existing gaps without deliberate policy action. The combination of targeted recruitment, regional equity strategies, and enhanced data infrastructure will be essential to meeting BC's health workforce needs over the coming decade.</span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a>*Analysis conducted using R 4.3+ with tidyverse, broom, and scales packages. Full source code and reproducibility instructions available in the project repository.*</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

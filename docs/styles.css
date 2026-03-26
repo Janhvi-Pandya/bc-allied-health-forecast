@@ -1,0 +1,35 @@
+/* Clean overrides for the Quarto cosmo theme */
+
+.quarto-title h1.title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.quarto-title .description {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Tighter plot spacing */
+.cell-output-display {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Callout styling */
+.callout {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Table styling */
+.table {
+  font-size: 0.9rem;
+}
+
+/* Footer */
+body::after {
+  content: "";
+  display: block;
+  height: 2rem;
+}
