@@ -10,11 +10,11 @@ website:
         text: Report
       - href: methods.qmd
         text: Methods
-      - href: https://keriu-pandya.shinyapps.io/bc-allied-health-forecast/
+      - href: https://janhvi-pandya.shinyapps.io/bc-allied-health-forecast/
         text: Interactive Dashboard
     right:
       - icon: github
-        href: https://github.com/keriupandya/bc-allied-health-forecast
+        href: https://github.com/Janhvi-Pandya/bc-allied-health-forecast
 
 format:
   html:

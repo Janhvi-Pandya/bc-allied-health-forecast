@@ -47,7 +47,7 @@ This analysis examines **8 allied health professions** across **5 Health Authori
 
 ::: {.callout-tip}
 ## Interactive Dashboard
-Explore the data yourself with filters and drill-downs in the [Interactive Shiny Dashboard](https://keriu-pandya.shinyapps.io/bc-allied-health-forecast/).
+Explore the data yourself with filters and drill-downs in the [Interactive Shiny Dashboard](https://janhvi-pandya.shinyapps.io/bc-allied-health-forecast/).
 :::
 
 ## Data Loading & Quality
@@ -364,4 +364,4 @@ Extend the framework with retirement age distributions, training program enrollm
 
 ---
 
-*Built with R (tidyverse, broom, scales) and Quarto. Source code on [GitHub](https://github.com/keriupandya/bc-allied-health-forecast).*
+*Built with R (tidyverse, broom, scales) and Quarto. Source code on [GitHub](https://github.com/Janhvi-Pandya/bc-allied-health-forecast).*

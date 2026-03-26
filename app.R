@@ -83,7 +83,7 @@ ui <- page_navbar(
   title = "BC Allied Health Workforce",
   theme = bs_theme(bootswatch = "flatly", primary = "#2c7bb6"),
   nav_spacer(),
-  nav_item(tags$a("Report", href = "https://keriupandya.github.io/bc-allied-health-forecast/",
+  nav_item(tags$a("Report", href = "https://janhvi-pandya.github.io/bc-allied-health-forecast/",
                    target = "_blank", class = "nav-link")),
 
   # Tab 1: Trends
@@ -174,7 +174,7 @@ ui <- page_navbar(
       card_body(
         tags$p("This interactive dashboard accompanies the",
                tags$a("BC Allied Health Workforce Forecasting Analysis",
-                      href = "https://keriupandya.github.io/bc-allied-health-forecast/"),
+                      href = "https://janhvi-pandya.github.io/bc-allied-health-forecast/"),
                "report."),
         tags$h5("Data"),
         tags$p("Synthetic dataset modeled after CIHI and BC Ministry of Health workforce
@@ -190,7 +190,7 @@ ui <- page_navbar(
         tags$p("Keriu Pandya"),
         tags$h5("Source Code"),
         tags$p(tags$a("GitHub Repository",
-                      href = "https://github.com/keriupandya/bc-allied-health-forecast",
+                      href = "https://github.com/Janhvi-Pandya/bc-allied-health-forecast",
                       target = "_blank"))
       )
     )
